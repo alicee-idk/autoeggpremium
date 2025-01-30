@@ -4,6 +4,7 @@ while _G.auto do
 local args = {
     [1] = "OneHeroEgg"
 }
+
 game:GetService("ReplicatedStorage").RemoteEvents.CodePet:FireServer(unpack(args))
 wait()
 end
